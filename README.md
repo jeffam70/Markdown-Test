@@ -14,9 +14,8 @@ This is a Header 2
 ##### Header 5
 ###### Header 6
 Here's *italicized* text  
-Here's _bold_ text  
-Here's **strong italicized** text   
-Here's __strong bold__ text  
+Here's __bold__ text  
+Here's *__bold italicized__* text  
 
 # Unordered lists 
 - (-) list item
@@ -126,6 +125,9 @@ This is a Header 2
 
 
     4-space indented `inline code` statement
+
+This is supposed to be _bold_ text  
+This is supposed to be **strong italicized** text   
 
 |-------------------------------------------|  
 |          | Column 1 | Column 2 | Column 3 |
