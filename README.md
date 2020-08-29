@@ -99,13 +99,14 @@ Here is a reference link to an image: ![alt-text-hinted-image][W3C].
 [Parallax]: https://www.parallax.com "Parallax - an educational electronics company"
 [W3C]: https://w3.org/Icons/archive.png "See this 'title' hint on image?"
 
-# Tables
-|          | Column 1 | Column 2 | Column 3 |
-|----------|----------|----------|----------|
-|  Row 1   |  Cell 1  |  Cell 2  |  Cell 3  |
-|  Row 2   |  Cell 4  |  Cell 5  |  Cell 6  |  
-|  Row 3   |  Cell 7  |  Cell 8  |  Cell 9  |  
-|  Row 4   |  Cell 10 |  Cell 11 |  Cell 12 |  
+# Tables <small>(with embedded HTML formatting)</small>
+|     |Column 1|Wrapped and <br/>Centered Column 2 |Right-justified<br/>Column 3 |
+|-----|:-------|:---------------------------------:|----------------------------:|
+|Row 1|Cell 1  |Cell 2                             |Cell 3                       |
+|Row 2|Cell 4  |<small>Small Cell 5</small>        |Cell 6                       |
+|Row 3|Cell 7  |Cell 8                             |Long Cell<br>Contents 9      |
+|Row 4|Cell 10 |Cell 11 w/superscript<sup>123</sup>|Cell 12                      |
+<small><sup>123</sup> Table note describing a special thing about a cell.</small>
 
 # Oddities
 Text followed by
