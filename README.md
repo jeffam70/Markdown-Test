@@ -106,6 +106,7 @@ Here is a reference link to an image: ![alt-text-hinted-image][W3C].
 |Row 2|Cell 4  |<small>Small Cell 5</small>        |Cell 6                       |
 |Row 3|Cell 7  |Cell 8                             |Long Cell<br>Contents 9      |
 |Row 4|Cell 10 |Cell 11 w/superscript<sup>123</sup>|Cell 12                      |
+
 <small><sup>123</sup> Table note describing a special thing about a cell.</small>
 
 # Oddities
